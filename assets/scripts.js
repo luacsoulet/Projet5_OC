@@ -1,1 +1,20 @@
-$(document).ready((function () { $(".gallery").mauGallery({ columns: { xs: 1, sm: 2, md: 3, lg: 3, xl: 3 }, lightBox: !0, lightboxId: "myAwesomeLightbox", showTags: !0, tagsPosition: "top" }) })), $(document).ready((function () { $("form").on("submit", (function (o) { o.preventDefault() })) }));
+$(document).ready(function () {
+    $('.gallery').mauGallery({
+        columns: {
+            xs: 1,
+            sm: 2,
+            md: 3,
+            lg: 3,
+            xl: 3
+        },
+        lightBox: true,
+        lightboxId: 'myAwesomeLightbox',
+        showTags: true,
+        tagsPosition: 'top'
+    });
+});
+$(document).ready(function () {
+    $("form").on('submit', function (e) {
+        e.preventDefault();
+    })
+});
