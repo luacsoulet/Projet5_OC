@@ -45,9 +45,9 @@ html {
 }
 
 /* extra styling for top-header nav bar */
-.top-header .nav li {
+/* .top-header .nav li {
 	padding-inline: 0;
-}
+} */
 
 .navbar-a {
 	padding: 10px;
@@ -125,9 +125,9 @@ html {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	/* color: #fff; */
+	color: #000;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius:15 ;
 }
 
 .active-tag {
